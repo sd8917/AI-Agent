@@ -1,0 +1,20 @@
+langchain
+langchain_community
+langchain-openai
+langchain-groq
+python-dotenv
+langchain-google-genai
+langgraph
+langsmith
+langchain-core
+pypdf
+pymupdf
+
+## vector rag store && embedding
+sentence-transformers
+faiss-cpu
+chromadb
+
+## ai agent ai crew
+crewai
+crewai_tools

@@ -1,0 +1,36 @@
+[project]
+name = "python-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sudhanshu kumar", email = "sudhanshuraj8917@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb>=1.5.9",
+    "faiss-cpu>=1.15.1",
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.7",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.3",
+    "langchain-google-genai>=4.4.2",
+    "langchain-google-vertexai>=3.2.5",
+    "langchain-groq>=1.1.3",
+    "langchain-openai>=1.7.3",
+    "langchain-text-splitters>=1.1.3",
+    "langgraph>=1.2.18",
+    "langsmith>=0.14.16",
+    "openai>=3.41.0",
+    "pymupdf>=2.1",
+    "pypdf>=7.0.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+]
+
+[project.scripts]
+python-learning = "python_learning:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
